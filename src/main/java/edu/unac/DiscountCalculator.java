@@ -4,7 +4,7 @@ import edu.unac.domain.InvalidPurchaseException;
 
 public class DiscountCalculator {
     public double calculateFinalPrice(double amount, boolean premiumCustomer) {
-
+        //My change
         validateAmount(amount);
 
         double discount = calculateDiscount(amount, premiumCustomer);
